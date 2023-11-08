@@ -1,0 +1,10 @@
+nclude<reg51.h>
+
+Void main (void)
+{
+Unsigned char mynum[]={0x10,0x20,0x30,0x40,0x50};
+Unsigned char num[5];
+Unsigned char z;
+For (z=0;z<=4;z++)
+num[z]=mynum[z];
+}
